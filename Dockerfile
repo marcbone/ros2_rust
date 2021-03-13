@@ -37,6 +37,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 # install CI dependencies
 RUN apt-get update && apt-get install -q -y \
         ccache \
+	      ros-foxy-test-interface-files \
         clang \
         lcov \
         libclang-dev \
